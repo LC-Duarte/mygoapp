@@ -1,0 +1,1 @@
+swag init  --output internal/docs --generalInfo cmd/mygoapp/main.go
