@@ -1,7 +1,5 @@
 package model
 
-import "fmt"
-
 type BaseObject struct {
 	id   int    //Not Exported Lower Case
 	Name string // Exported Upper case
@@ -35,11 +33,13 @@ type Animal interface {
 
 type User struct {
 	BaseObject
-	pets []Animal
+	Pets []Animal
 }
 
+/*
 func (a *Animal) FindOwner() User {
 	aid := a.Id()
 	fmt.Println(aid)
 	return User{}
 }
+*/
